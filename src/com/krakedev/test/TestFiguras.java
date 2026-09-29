@@ -2,6 +2,7 @@ package com.krakedev.test;
 
 import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
+import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Triangulo;
 
 public class TestFiguras {
@@ -16,6 +17,12 @@ public class TestFiguras {
 		System.out.println(figura);
 		System.out.println(cuadrado);
 		System.out.println(triangulo);
+		
+		Graficador grfcador = new Graficador();
+		
+		grfcador.graficar(figura);
+		grfcador.graficar(cuadrado);
+		grfcador.graficar(triangulo);
 
 	}
 
