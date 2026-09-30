@@ -4,6 +4,7 @@ import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
 import com.krakedev.figuras.Triangulo;
+import com.krakedev.figuras.TrianguloRectangulo;
 
 public class TestFiguras {
 
@@ -13,16 +14,19 @@ public class TestFiguras {
 		Figura figura = new Figura ("Figura", "Rojo");
 		Cuadrado cuadrado = new Cuadrado ("Cuadrado","Verde", 5);
 		Triangulo triangulo = new Triangulo ("Triangulo", "Azul");
+		TrianguloRectangulo tr = new TrianguloRectangulo ("Triangulo rectangulo", "Celeste", 3,4);
 		
 		System.out.println(figura);
 		System.out.println(cuadrado);
 		System.out.println(triangulo);
+		System.out.println(tr);
 		
 		Graficador grfcador = new Graficador();
 		
 		grfcador.graficar(figura);
 		grfcador.graficar(cuadrado);
 		grfcador.graficar(triangulo);
+		grfcador.graficar(tr);
 
 	}
 
