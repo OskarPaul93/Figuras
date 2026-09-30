@@ -10,6 +10,10 @@ public class Rectangulo extends Figura {
 		this.altura = altura;
 	}
 	
+	//Este método ya existe en mi clase padre Figura, 
+	//pero aquí en Rectangulo quiero darle mi propia implementación
+	
+	@Override
 	public int calcularPerimetro () {
 		return 2*base + 2*altura;
 	}

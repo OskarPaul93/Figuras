@@ -21,10 +21,16 @@ public class Figura  {
 	public void setColor(String color) {
 		this.color = color;
 	}
+	
+	public int calcularPerimetro() {
+		return 0;
+	}
+	
 	@Override
 	public String toString() {
 		return "Figura [nombre=" + nombre + ", color=" + color + "]";
 	}
+	
 	
 
 
