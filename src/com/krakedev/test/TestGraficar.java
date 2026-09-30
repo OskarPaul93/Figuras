@@ -11,8 +11,8 @@ public class TestGraficar {
 		// TODO Auto-generated method stub
 		Graficador graf = new Graficador ();
 		Figura fig = new Figura("Figura","Amarillo");
-		Cuadrado cuadr = new Cuadrado("Cuadrado", "Verde");
-		Rectangulo recta = new Rectangulo("Rectangulo", "Azul");
+		Cuadrado cuadr = new Cuadrado("Cuadrado", "Verde", 5);
+		Rectangulo recta = new Rectangulo("Rectangulo", "Azul", 10,3);
 
 		graf.graficar(fig);
 		graf.graficar(cuadr);
