@@ -15,5 +15,10 @@ public class Cuadrado extends Figura {
 		return 4*lado;
 	}
 	
+	@Override
+	public double calcularArea() {
+		return lado*lado;
+	}
+	
 
 }

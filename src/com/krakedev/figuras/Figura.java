@@ -26,6 +26,10 @@ public class Figura  {
 		return 0;
 	}
 	
+	public double calcularArea() {
+		return 0;
+	}
+	
 	@Override
 	public String toString() {
 		return "Figura [nombre=" + nombre + ", color=" + color + "]";

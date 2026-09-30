@@ -18,7 +18,6 @@ public class TestGraficar {
 		graf.graficar(cuadr);
 		graf.graficar(recta);
 		
-		
 
 	}
 
