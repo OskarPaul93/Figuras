@@ -3,6 +3,7 @@ package com.krakedev.test;
 import com.krakedev.figuras.Cuadrado;
 import com.krakedev.figuras.Figura;
 import com.krakedev.figuras.Graficador;
+import com.krakedev.figuras.Hexagono;
 import com.krakedev.figuras.Triangulo;
 import com.krakedev.figuras.TrianguloRectangulo;
 
@@ -16,6 +17,12 @@ public class TestFiguras {
 		Triangulo triangulo = new Triangulo ("Triangulo", "Azul");
 		TrianguloRectangulo tr = new TrianguloRectangulo ("Triangulo rectangulo", "Celeste", 3,4);
 		
+		Figura hex = new Hexagono ("Figura","Rojo",5);
+		System.out.println("Area Hexagono: "+ hex.calcularArea());
+		System.out.println("Perimetro Hexagono: " + hex.calcularPerimetro());
+		
+				
+				
 		System.out.println(fig);
 		//System.out.println(cuadrado);
 		System.out.println(triangulo);
@@ -27,6 +34,7 @@ public class TestFiguras {
 		//grfcador.graficar(cuadrado);
 		grfcador.graficar(triangulo);
 		grfcador.graficar(tr);
+		grfcador.graficar(hex);
 
 	}
 
