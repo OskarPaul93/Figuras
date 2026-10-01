@@ -10,7 +10,9 @@ public class TestGraficar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Graficador graf = new Graficador ();
-		Figura fig = new Figura("Figura","Amarillo");
+//		Figura fig = new Figura("Figura","Amarillo");
+		
+		Figura fig = new Cuadrado ("Cuadrado ", "Azul",5);
 		Cuadrado cuadr = new Cuadrado("Cuadrado", "Verde", 5);
 		Rectangulo recta = new Rectangulo("Rectangulo", "Azul", 10,3);
 

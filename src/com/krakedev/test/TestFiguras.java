@@ -11,20 +11,20 @@ public class TestFiguras {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Figura figura = new Figura ("Figura", "Rojo");
-		Cuadrado cuadrado = new Cuadrado ("Cuadrado","Verde", 5);
+		Figura fig = new Cuadrado ("Figura", "Rojo",5);
+//		Cuadrado cuadrado = new Cuadrado ("Cuadrado","Verde", 5);
 		Triangulo triangulo = new Triangulo ("Triangulo", "Azul");
 		TrianguloRectangulo tr = new TrianguloRectangulo ("Triangulo rectangulo", "Celeste", 3,4);
 		
-		System.out.println(figura);
-		System.out.println(cuadrado);
+		System.out.println(fig);
+		//System.out.println(cuadrado);
 		System.out.println(triangulo);
 		System.out.println(tr);
 		
 		Graficador grfcador = new Graficador();
 		
-		grfcador.graficar(figura);
-		grfcador.graficar(cuadrado);
+		grfcador.graficar(fig);
+		//grfcador.graficar(cuadrado);
 		grfcador.graficar(triangulo);
 		grfcador.graficar(tr);
 
